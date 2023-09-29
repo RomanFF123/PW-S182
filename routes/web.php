@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 */
 
-Route::view('/', 'welcome');
-Route::view('/formulario', 'formulario');
-Route::view('/recuerdos', 'recuerdos');
+Route::view('/', 'welcome')->name('RutaInicio');
+Route::view('/formulario', 'formulario')->name('RutaFormulario');
+Route::view('/recuerdos', 'recuerdos')->name('RutaRecuerdos');
     
